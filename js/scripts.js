@@ -6,9 +6,11 @@ function triTracker(sides) {
 
   var sides = [sideOne, sideTwo, sideThree].sort();
 
-  if(sides[0]===sides[1]&&sides[1]===sides[2]){
-    text = "Your triangle is Equilateral!";
-}
+  // if(sides[0]===sides[1]&&sides[1]===sides[2]){
+  //   text = "Your triangle is Equilateral!";
+  if(sides[0]===sides[1]||sides[1]===sides[2]){
+     text = "Your triangle is Isosceles!";
+   }
 
   document.getElementById("triType").innerHTML = text;
 }
