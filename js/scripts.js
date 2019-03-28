@@ -13,7 +13,7 @@ function triTracker() {
    }else if(sides[0]+sides[1]>sides[2]){
    text = "Your triangle is Scalene!";
   }else{
-    text=sides;
+    text ="Your values cannot form a triangle!";
   }
 
   document.getElementById("triType").innerHTML = text;
