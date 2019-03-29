@@ -22,8 +22,10 @@ function triTracker() {
     }
   } else if (sides[0] === 0 || sides[1] === 0 && sides[2] === 0){
     text="You must enter a number greater than zero!";
+    document.getElementById("image").innerHTML = '<img src="images/sad.jpg" alt="Triangle Type">';
   }else{
     text="You're required to enter a positive number!";
+    document.getElementById("image").innerHTML = '<img src="images/sad.jpg" alt="Triangle Type">';
   }
 
   document.getElementById("triType").innerHTML = text;
