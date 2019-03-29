@@ -22,23 +22,18 @@ body{
 #inputs{
   display: flex;
   flex-direction: column;
-  width:30%;
+  
   border: solid 2px white;
   margin-right: 20px;
   padding:10px;
   padding-left:20px;
   text-align: center;
 }
-.display{
-  display: flex;
-  
-}
+
 .display #tri-type{
   clear: left;
 }
-#image{
-  width: 60%;
-  height:auto;
+#image{ 
   padding:10px;
   padding-top:20px;
   background-color: aliceblue;
@@ -51,3 +46,15 @@ body{
   font-size: 2em;
 }
 
+@media screen and (min-width: 480px) {
+  .display{
+    display: flex;
+  }
+  #image{
+    width: 60%;
+    height:auto;
+  }
+  #inputs{
+    width:30%;
+  }
+}
