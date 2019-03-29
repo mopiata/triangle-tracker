@@ -1,0 +1,26 @@
+body{
+  text-align: center;
+  padding-top: 100px;
+  background-color: aliceblue;
+}
+#calculator{
+  background-color: black;
+  padding: 40px;
+  border-radius: 10px;
+  width:60%;
+  margin-left: 20%;
+  color: white;
+  /* display: flex;
+  flex-direction: column; */
+}
+#calculator h3{
+  color: aliceblue;
+}
+.fields{
+  margin-bottom: 20px;
+  width:40%;
+}
+#inputs{
+  display: flex;
+  flex-direction: column;
+}
