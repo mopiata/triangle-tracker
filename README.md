@@ -44,7 +44,7 @@ The user is also able to click the reset button to clear all the fields.
 ### Built With
 VSCode for HTML, CSS and JavaScript
 
-Here is a link to the site: https://mopiata.github.io/portfolio/
+Here is a link to the site: https://mopiata.github.io/triangle-tracker/
 
 #### Author
 Margaret Opiata-Mutungi
