@@ -1,6 +1,6 @@
 body{
   text-align: center;
-  padding-top: 100px;
+  padding-top: 30px;
   background-color: aliceblue;
 }
 #calculator{
@@ -10,17 +10,43 @@ body{
   width:60%;
   margin-left: 20%;
   color: white;
-  /* display: flex;
-  flex-direction: column; */
+  float: left;
 }
-#calculator h3{
-  color: aliceblue;
+#calculator p{
+  font-size: 20px;
 }
 .fields{
   margin-bottom: 20px;
-  width:40%;
+  width:90%;
 }
 #inputs{
   display: flex;
   flex-direction: column;
+  width:30%;
+  border: solid 2px white;
+  margin-right: 20px;
+  padding:10px;
+  padding-left:20px;
+  text-align: center;
 }
+.display{
+  display: flex;
+  
+}
+.display #tri-type{
+  clear: left;
+}
+#image{
+  width: 60%;
+  height:auto;
+  padding:10px;
+  background-color: aliceblue;
+}
+#image img{
+  width:100%;
+  height:350px;
+}
+#tri-type{
+  font-size: 2em;
+}
+
