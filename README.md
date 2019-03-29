@@ -49,6 +49,7 @@ Here is a link to the site: https://mopiata.github.io/triangle-tracker/
 
 #### Author
 Margaret Opiata-Mutungi
+Find me on LinkedIn at https://www.linkedin.com/in/margaret-opiata-2700a92b/
 
 #### Contributors
 Samuel Ngigi (My instructor)
