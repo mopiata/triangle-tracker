@@ -37,7 +37,7 @@ This is a program that allows users to enter three values each representing the 
 ## Getting started
 This page gives the user an interface where they can enter input (the three sides of a triangle). They can then click the button 'Check' to check if they can form a triangle with the values presented and if so, it tells them the kind of triangle they can form. The interface also gives a picture of that type of triangle. If they cannot form a triangle, they get a sad face :(
 
-![Alt Text](images/interface.png)
+![Alt Text](images/interface.PNG)
 
 The user is also able to click the reset button to clear all the fields.
 
