@@ -23,3 +23,9 @@ function triTracker() {
   document.getElementById("triType").innerHTML = text;
 }
 
+function formClear(){
+  document.getElementById("input1").value="";
+  document.getElementById("input2").value="";
+  document.getElementById("input3").value="";
+  document.getElementById("triType").innerHTML = "";
+}
