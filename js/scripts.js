@@ -19,6 +19,7 @@ function triTracker() {
       document.getElementById("image").innerHTML = '<img src="images/scalene.gif" alt="Triangle Type">';
     }else{
       text ="Your values cannot form a triangle!";
+      document.getElementById("image").innerHTML = '<img src="images/sad.jpg" alt="Triangle Type">';
     }
   } else if (sides[0] === 0 || sides[1] === 0 && sides[2] === 0){
     text="You must enter a number greater than zero!";
@@ -27,7 +28,6 @@ function triTracker() {
     text="You're required to enter a positive number!";
     document.getElementById("image").innerHTML = '<img src="images/sad.jpg" alt="Triangle Type">';
   }
-
   document.getElementById("triType").innerHTML = text;
   
 }
