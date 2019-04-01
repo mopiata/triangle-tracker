@@ -6,8 +6,13 @@ function triTracker() {
   var text;
 
   var sides = [sideOne, sideTwo, sideThree].sort((a, b) => a - b);
-  //check is sides are greater than 0 to handle nulls and negative numbers then proceed if true
-  if (sides[0] > 0 && sides[1] > 0 && sides[2] > 0){
+
+  
+  if (sides[0] + sides[1] <= sides[2]) {
+    text = "Your values cannot form a triangle!";
+    document.getElementById("image").innerHTML = '<img src="images/sad.jpg" alt="Triangle Type">';
+  } //check is sides are greater than 0 to handle nulls and negative numbers then proceed if true
+    else if (sides[0] > 0 && sides[1] > 0 && sides[2] > 0){
     if (sides[0] === sides[1] && sides[1] === sides[2]){
       text = "Your triangle is Equilateral!";
       document.getElementById("image").innerHTML = '<img src="images/equilateral.png" alt="Triangle Type">';
